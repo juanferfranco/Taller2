@@ -132,7 +132,28 @@ draw_set_colour(c_yellow);
 draw_text(180,view_yview+440,score);
 draw_healthbar(12,view_yview+449,138, view_yview+459,health,c_black,c_red,c_green,0,false,true);
 
+
+for (i=0; i&lt;lives; i+=1)
+{
+    draw_sprite(spr_life,-1,16 +32*i,view_yview+410);    
+};
+
+/*
+if(lives == 1) draw_sprite(spr_life,-1,16,view_yview+410);
+if(lives == 2){
 draw_sprite(spr_life,-1,16,view_yview+410);
+draw_sprite(spr_life,-1,16+32,view_yview+410);
+
+}
+if(lives == 3){
+draw_sprite(spr_life,-1,16,view_yview+410);
+draw_sprite(spr_life,-1,16+32,view_yview+410);
+draw_sprite(spr_life,-1,16+64,view_yview+410);
+
+}
+*/
+
+
 
 
 
