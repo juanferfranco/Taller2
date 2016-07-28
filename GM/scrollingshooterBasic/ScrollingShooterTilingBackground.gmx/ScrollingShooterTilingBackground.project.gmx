@@ -31,6 +31,7 @@
     <object>objects\obj_enemy1</object>
     <object>objects\obj_exploEnemy</object>
     <object>objects\obj_exploPlane</object>
+    <object>objects\obj_controller_enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\nivel1</room>
