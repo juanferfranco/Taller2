@@ -17,6 +17,8 @@
     <sprite>sprites\spr_enemy1</sprite>
     <sprite>sprites\spr_exploEnemy</sprite>
     <sprite>sprites\spr_exploPlane</sprite>
+    <sprite>sprites\spr_bottom</sprite>
+    <sprite>sprites\spr_life</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_water</background>
@@ -32,6 +34,7 @@
     <object>objects\obj_exploEnemy</object>
     <object>objects\obj_exploPlane</object>
     <object>objects\obj_controller_enemy</object>
+    <object>objects\obj_controller_life</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\nivel1</room>

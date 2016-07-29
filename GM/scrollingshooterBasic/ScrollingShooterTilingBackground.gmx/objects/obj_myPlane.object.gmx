@@ -97,7 +97,7 @@ if(up){
 }
 
 if(down){
-    if(y &lt; (room_height - sprite_height/2)){
+    if(y &lt; (room_height - 120)){
         y = y + 2;
     }
 }

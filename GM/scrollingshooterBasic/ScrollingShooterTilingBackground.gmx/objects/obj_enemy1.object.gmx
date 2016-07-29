@@ -106,12 +106,11 @@ show_debug_message("score: " + string(score));
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(other){ // other is myPlane
-    instance_change(obj_exploPlane, false);
-}
-
-audio_play_sound(snd_exploPlane, 10, false);
-instance_destroy();
+            <string>audio_play_sound(snd_exploEnemy, 10, false);
+instance_create(x,y, obj_exploEnemy);
+health -= 30;
+x = random(room_width);
+y = -sprite_height/2;
 </string>
           </argument>
         </arguments>

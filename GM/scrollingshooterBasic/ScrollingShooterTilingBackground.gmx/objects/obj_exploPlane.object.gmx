@@ -26,7 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>instance_destroy();
-room_restart();
+instance_create(x,y, obj_myPlane);
+lives -= 1;
+
 </string>
           </argument>
         </arguments>
