@@ -50,8 +50,7 @@ vspeed = 4;
           <argument>
             <kind>1</kind>
             <string>if(y &gt; room_height + sprite_height/2){
-    x = irandom_range(sprite_width/2, room_width - sprite_width/2);
-    y = -sprite_height/2;
+    instance_destroy();
 }
 
 var die = floor(random(30)) + 1;
@@ -86,8 +85,7 @@ with(other){ // the bullet
     instance_destroy();
 }
 instance_create(x,y, obj_exploEnemy);
-x = irandom_range(sprite_width/2, room_width - sprite_width/2);
-y = -sprite_height/2;
+instance_destroy();
 score = score + 10;
 show_debug_message("score: " + string(score));
 </string>
@@ -115,8 +113,7 @@ show_debug_message("score: " + string(score));
             <string>audio_play_sound(snd_exploEnemy, 10, false);
 instance_create(x,y, obj_exploEnemy);
 health -= 30;
-x = irandom_range(sprite_width/2, room_width - sprite_width/2);
-y = -sprite_height/2;
+instance_destroy();
 </string>
           </argument>
         </arguments>
