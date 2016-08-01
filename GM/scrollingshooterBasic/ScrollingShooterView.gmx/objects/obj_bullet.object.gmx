@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vspeed = -8;
+            <string>vspeed = -10;
 
 </string>
           </argument>
@@ -73,7 +73,7 @@
           <argument>
             <kind>1</kind>
             <string>
-if(y &lt; -sprite_height/2){
+if(y &lt; (view_yview[0] - sprite_height/2)){
     instance_destroy();
 }
 
