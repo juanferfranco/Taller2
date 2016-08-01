@@ -26,10 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>if(instance_number(obj_myPlane) &gt; 0){
-    move_towards_point(obj_myPlane.x,obj_myPlane.y,8);
+    move_towards_point(obj_myPlane.x,obj_myPlane.y,6);
 }
 else{
-    vspeed = 8;
+    vspeed = 6;
 }
 </string>
           </argument>
@@ -61,7 +61,7 @@ health -= 5;
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="0">
+    <event eventtype="7" enumb="40">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -79,7 +79,6 @@ health -= 5;
           <argument>
             <kind>1</kind>
             <string>instance_destroy();
-
 </string>
           </argument>
         </arguments>
