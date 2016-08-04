@@ -103,7 +103,10 @@ if (keyboard_check(vk_down))
    
 if (place_meeting(x, y, objLlaveDorada))
 {
-    with(objLlaveDorada){instance_destroy();}
+    /*
+    with(objLlaveDorada){
+        instance_destroy();
+    }*/
     llaveDorada = true;
     audio_play_sound(sndDiamante, 10, false);
 }
