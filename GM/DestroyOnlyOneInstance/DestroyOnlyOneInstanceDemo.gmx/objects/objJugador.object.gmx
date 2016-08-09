@@ -97,9 +97,10 @@ if (keyboard_check_pressed(vk_down))
           <argument>
             <kind>1</kind>
             <string>/// Gestión de llaves
-
 var inst;
 inst = instance_place(x, y, objLlaveDorada);
+
+show_debug_message(inst);
 
 if (inst != noone){
     with(inst){
